@@ -4,6 +4,7 @@ import {DragDropModule} from '@angular/cdk/drag-drop';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AutocselectorComponent } from './components/autocselector/autocselector.component';
 import { MaterialModule } from './modules/material/material.module';
@@ -17,8 +18,11 @@ import { MaterialModule } from './modules/material/material.module';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    FormsModule,
+    ReactiveFormsModule,
     DragDropModule,
     MaterialModule
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
